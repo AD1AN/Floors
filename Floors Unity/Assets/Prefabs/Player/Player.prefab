@@ -342,7 +342,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1491717940310356}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1998.437, y: 1.54, z: 2017}
+  m_LocalPosition: {x: 999.63, y: 4, z: 999.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4450164203277658}
@@ -455,7 +455,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.31
-  far clip plane: 5000
+  far clip plane: 7000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -1232,39 +1232,39 @@ MonoBehaviour:
   MapToLDR: 0
   RemoveColorBanding: 1
   MatrixVP:
-    e00: 1.7287006
+    e00: 1.1005739
     e01: 0
     e02: 0
-    e03: -3454.6992
+    e03: -1100.1667
     e10: -0
     e11: -1.7320508
     e12: 0
-    e13: 3.8797936
+    e13: 8.140638
     e20: 0
     e21: 0
-    e22: -0.00006198883
-    e23: 0.4350693
+    e22: -0.00004428625
+    e23: 0.35430354
     e30: 0
     e31: 0
     e32: 1
-    e33: -2017.3
+    e33: -1000.08
   LastMatrixVP:
-    e00: 1.7287006
+    e00: 1.1005739
     e01: 0
     e02: 0
-    e03: -3454.6992
+    e03: -1100.1667
     e10: 0
     e11: 1.7320508
     e12: 0
-    e13: -3.8797936
+    e13: -8.140638
     e20: 0
     e21: 0
-    e22: -0.00006198883
-    e23: 0.4350693
+    e22: -0.00004428625
+    e23: 0.35430354
     e30: 0
     e31: 0
     e32: 1
-    e33: -2017.3
+    e33: -1000.08
   LastMatrixVPInv:
     e00: 0
     e01: 0
@@ -1320,15 +1320,15 @@ MonoBehaviour:
     e00: 1
     e01: 0
     e02: 0
-    e03: -1998.437
+    e03: -999.63
     e10: 0
     e11: 1
     e12: 0
-    e13: -2.24
+    e13: -4.7
     e20: 0
     e21: 0
     e22: -1
-    e23: 2017.3
+    e23: 1000.08
     e30: 0
     e31: 0
     e32: 0

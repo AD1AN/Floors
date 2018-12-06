@@ -107,7 +107,7 @@ public class ActionsPlayer : NetworkBehaviour {
 
 			rotY -= Input.GetAxis("Mouse Y") * sensitivity;
 
-			rotY = Mathf.Clamp(rotY, -60, 80); // Не позволяем смотреть слишком низко и слишком высоко
+			rotY = Mathf.Clamp(rotY, -85, 80); // Не позволяем смотреть слишком высоко и слишком низко
 
 			playerCamera.transform.localRotation = Quaternion.Euler(rotY, 0, 0);
 		}
