@@ -468,7 +468,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -1232,10 +1232,10 @@ MonoBehaviour:
   MapToLDR: 0
   RemoveColorBanding: 1
   MatrixVP:
-    e00: 1.1005739
+    e00: 1.9143718
     e01: 0
     e02: 0
-    e03: -1100.1667
+    e03: -1913.6636
     e10: -0
     e11: -1.7320508
     e12: 0
@@ -1249,10 +1249,10 @@ MonoBehaviour:
     e32: 1
     e33: -1000.08
   LastMatrixVP:
-    e00: 1.1005739
+    e00: 1.9143718
     e01: 0
     e02: 0
-    e03: -1100.1667
+    e03: -1913.6636
     e10: 0
     e11: 1.7320508
     e12: 0
